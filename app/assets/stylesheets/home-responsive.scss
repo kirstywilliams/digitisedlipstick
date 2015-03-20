@@ -1,0 +1,33 @@
+//
+// HOME PAGE: Responsive
+// --------------------------------------------------
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	body#site{
+
+		p{font-size: 13px;}
+
+		#fullPage-nav{ display:none; }
+	}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+	
+	body#site{
+
+		p{font-size: 13px;}
+
+		#fullPage-nav{ display:none; }
+	}
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) {
+
+}

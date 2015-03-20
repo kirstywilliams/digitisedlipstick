@@ -1,0 +1,160 @@
+//
+// HOME PAGE
+// --------------------------------------------------
+
+.wrapper {
+
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+body#site {
+
+	line-height: 1.4;
+	background-color: #FFF;
+	text-align: center;
+
+	.row {
+
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+	/* Common styles
+	* --------------------------------------- */
+	img { @include transition(all 0.7s ease-out); }
+	
+	.section {
+		
+		text-align:center;
+		overflow:hidden;
+	}
+	
+	#fullPage-nav span, .fullPage-slidesNav span {
+
+		width: 12px;
+		height: 12px;
+	}
+
+	#fullPage-nav span, .fullPage-slidesNav span {
+
+		border-color: $primary-color;
+	}
+	#fullPage-nav li .active span, .fullPage-slidesNav .active span {
+
+		background: $primary-color;
+	}
+
+	/* Overwrite fullPage.js tooltip color
+	* --------------------------------------- */
+	.fullPage-tooltip {
+
+		background-color: rgba(0,0,0, 0.6);
+		color: #FFF !important;
+		//width:75px;
+		text-align:center;
+		padding:7px 25px;
+		@include border-radius(4px);
+	}
+	
+	.section-background-overlay {
+
+		@include overlay-background($body-text, 0.95);
+	}
+	
+	/* Section 0
+	* --------------------------------------- */
+	#section0{}
+}
+
+.brand-wrapper {
+
+	width: 40%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+.logo-wrapper {
+
+	width: 50%;
+	margin: 0 auto;
+
+	#logo {
+
+		display: block;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.logo-text-wrapper {
+
+	width: 75%;
+	margin: 0 auto;
+
+	#logo-title {
+
+    display: block;
+		position: relative;
+		width: 100%;
+	}
+
+	#slogan {
+
+		width:80%;
+		float: right;
+		position: absolute;
+		bottom: 11%;
+		right: -3%;
+
+		h2 {
+
+			font-family: $body-font-3;
+			color: $primary-color;
+			text-shadow: none;
+			font-size: 1.8vw;
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+			text-align: right;
+		}
+
+	}
+
+	.slogan-sleep { display: none; }
+
+	.slogan-wakeup {
+
+		display: block;
+  	white-space: nowrap;
+  	overflow: hidden;
+		animation: type 3s steps(60, end);
+	}
+}
+
+@keyframes type { from { width: 0; } } 
+
+/* replaced with Vivus.js 
+.title {
+
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: draw 5s linear forwards;
+  font-weight: bold;
+  font-family: $title-font;
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
+*/
+
+.svg-content { display: block; }
+
+.outline-svg {
+
+	fill-opacity: 0;
+	transition: fill-opacity 2s;
+}
+
+.outline-svg.finished { fill-opacity: 1; }

@@ -1,0 +1,98 @@
+//
+// Core
+// --------------------------------------------------
+
+html {
+	-webkit-font-smoothing: antialiased !important;
+	height:100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+// Body
+// -------------------------
+
+body { 
+	font-family: $body-font-2;
+	background: $container-bg;
+	font-size: 14px;
+	color: $body-text;
+	position: relative;
+	height:100%;
+	vertical-align: baseline;
+}
+
+img{border:none !important;}
+
+// Outlines
+// -------------------------
+
+*, a:focus { outline: none !important; }
+button:focus { outline: none !important; }
+button::-moz-focus-inner { border: 0; }
+
+// Links
+// -------------------------
+
+a:hover { 
+	color: $link-hover; 
+	&, .text-underline { text-decoration: none; }
+}
+a { color: $link-color; outline: 0 !important; }
+
+// Headings 
+// -------------------------
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 5px;
+	font-family: $body-font-2;
+	text-shadow: 0 1px 0 rgba($body-text, 0.15);
+	&.glyphicons {
+		color: $inverse-color;
+	}
+	span {
+		color: $inverse-color;
+		font-family: $body-font-2;
+	}
+}
+
+
+h2 span, h3 span {
+	font-size: 50%;
+	text-transform: none;
+	padding: 0;
+	position: relative;
+}
+h1 { font-size: 64px; }
+h2 { font-size: 36px; }
+
+::-moz-selection{background: $primary-color; color: #fff; text-shadow: none;}
+::selection {background: $primary-color; color: #fff; text-shadow: none;} 
+
+// Paragraphs
+// -------------------------
+
+p { 
+	margin: 0 0 10px; 
+	line-height: normal;
+	font-size: 18px;
+}
+
+img {
+	padding:1px;
+	
+
+	&:hover  {
+		border:1px solid $primary-color;
+	}
+}
+
+.ie .img-responsive { 
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+// Other
+// -------------------------
+
+input, button, select, textarea { font-family: $body-font-2; }

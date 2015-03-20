@@ -13,8 +13,8 @@
 @import "font-awesome";
 
 /* Components */
-@import "messages";
-@import "layout";
-@import "navbar";
+@import "core";
 
 /* Pages */
+@import "home";
+@import "home-responsive";

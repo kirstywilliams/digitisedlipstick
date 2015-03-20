@@ -86,6 +86,8 @@
 .text-condensed { letter-spacing: -2px; }
 .text-uppercase { text-transform: uppercase; }
 .text-lowercase { text-transform: lowercase; }
+.text-nocase { text-transform: none!important; }
+.text-underlined { text-decoration: underline; }
 
 // text alignment
 
