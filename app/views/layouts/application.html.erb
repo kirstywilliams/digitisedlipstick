@@ -84,6 +84,8 @@
 	ga('send', 'pageview');
 
 	</script>
+
+	<%= yield(:head_controller_js) %>
 	
 	<%= csrf_meta_tags %>
 </head>
@@ -94,5 +96,6 @@
 			<%= yield %>
 
 	</div><!-- ./wrapper -->
+	<%= yield(:foot_controller_js) %>
 </body>
 </html>

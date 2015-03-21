@@ -1,0 +1,32 @@
+//
+// Graph
+// --------------------------------------------------
+
+.node {
+
+  opacity: 0.5;
+  &:hover{ opacity: 1; }
+}
+
+.link {
+
+  stroke: #222;
+  stroke-opacity: 0.1;
+}
+
+#viz{
+
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display:block;
+
+	#graph{
+	
+		opacity: 0.25;
+		z-index: -1;
+	}
+}
+

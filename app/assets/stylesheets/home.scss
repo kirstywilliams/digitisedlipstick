@@ -92,8 +92,9 @@ body#site {
 
 .logo-text-wrapper {
 
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
+	position: relative;
 
 	#logo-title {
 
@@ -102,40 +103,14 @@ body#site {
 		width: 100%;
 	}
 
-	#slogan {
-
-		width:80%;
-		float: right;
-		position: absolute;
-		bottom: 11%;
-		right: -3%;
-
-		h2 {
-
-			font-family: $body-font-3;
-			color: $primary-color;
-			text-shadow: none;
-			font-size: 1.8vw;
-			height: 100%;
-			width: 100%;
-			overflow: hidden;
-			text-align: right;
-		}
-
-	}
-
-	.slogan-sleep { display: none; }
-
-	.slogan-wakeup {
-
+	#logo-title-slogan{
 		display: block;
-  	white-space: nowrap;
-  	overflow: hidden;
-		animation: type 3s steps(60, end);
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left:0;
 	}
 }
-
-@keyframes type { from { width: 0; } } 
 
 /* replaced with Vivus.js 
 .title {

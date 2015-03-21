@@ -1,4 +1,5 @@
 module LayoutHelper
+
   def flash_messages(opts={})
     @layout_flash = opts.fetch(:layout_flash) { true }
 
@@ -19,7 +20,7 @@ module LayoutHelper
     @layout_flash.nil? ? true : @layout_flash
   end
 
-  def bootstrap_class_for flash_type
+  def bootstrap_class_for(flash_type)
     case flash_type
     when "success"
       "alert-success"
@@ -31,4 +32,5 @@ module LayoutHelper
       "alert-info"
     end
   end
+
 end
