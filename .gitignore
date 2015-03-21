@@ -31,7 +31,6 @@ config/secrets.yml
 # rbenv
 /.rbenv-version
 .ruby-gemset
-Gemfile.lock
 
 # Bundler binstubs
 /bin/
