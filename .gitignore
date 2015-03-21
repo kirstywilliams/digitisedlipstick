@@ -33,9 +33,7 @@ config/secrets.yml
 .ruby-gemset
 
 # Bundler binstubs
-/bin/
 /.bundle
 
 # Application specific ignores
-config/initializers/vars.rb
 config/database.yml
