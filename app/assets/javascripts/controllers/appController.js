@@ -1,3 +1,8 @@
+/*
+* ======== APPLICATION CONTROLLER ========
+* Initialises all component controllers.
+* 
+*/
 var AppController = {
 
 	// config properties for controllers
@@ -7,7 +12,7 @@ var AppController = {
 	// initialisation method
 	// initialises controllers
 	init: function(){
-		AppController.config["home"] = HomeController;
+		this.config["home"] = HomeController;
 	}
 
 }

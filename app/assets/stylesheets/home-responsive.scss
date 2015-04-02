@@ -2,32 +2,46 @@
 // HOME PAGE: Responsive
 // --------------------------------------------------
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (max-width: 480px) {
 
-	body#site{
+	body#site {
 
-		p{font-size: 13px;}
+		p { font-size: 13px; }
 
-		#fullPage-nav{ display:none; }
+		#fullPage-nav { display:none; }
+
+	}
+
+	.brand-wrapper {
+
+		width: 90% !important;
+		left: 5% !important;
 	}
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
-	
-	body#site{
+@media screen and (max-width: 568px) {
 
-		p{font-size: 13px;}
+	body#site {
 
-		#fullPage-nav{ display:none; }
+		p { font-size: 13px; }
+
+		#fullPage-nav { display:none; }
+
 	}
 
+	.brand-wrapper {
+
+		width: 90% !important;
+		left: 5% !important;
+	}
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+@media screen and (max-width: 768px) {
 
-}
+	.brand-wrapper {
 
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) {
-
+		width: 90% !important;
+		left: 5% !important;
+	}
 }

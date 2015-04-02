@@ -2,13 +2,15 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require modernizr
-//= require_directory ./libs
+//= require_directory ./plugins
+//= require_directory ./properties
+//= require_directory ./controllers/home/components
 //= require_directory ./controllers/home
 //= require_directory ./controllers
 
 $(function(){
 
-	// initialise application
+	// Initialise application
 	AppController.init();
 
 });

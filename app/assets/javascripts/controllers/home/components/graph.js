@@ -1,3 +1,8 @@
+/*
+* ======== GRAPH ========
+* Draws a force-directed graph.
+* Graph is responsive to document width.
+*/
 var Graph = {
 
     // init function. Needs refactoring
@@ -75,7 +80,7 @@ var Graph = {
             .attr('d', function(d) { return 'M'+d.join(',')+'Z'; });
         });
 
-        d3.json(HomeController.config.graphData, function(err, data) {
+        d3.json(Property.data.lesMiserables, function(err, data) {
 
             data.nodes.forEach(function(d, i) {
                 d.id = i;
