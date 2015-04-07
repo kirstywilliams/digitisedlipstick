@@ -6,6 +6,9 @@ gem 'rails', '4.2.0'
 # Use postgresql
 gem 'pg', '~> 0.18.1'
 
+# Server
+gem 'puma'
+
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.0.3'
 gem 'bootstrap-sass', '~> 3.3.3'
