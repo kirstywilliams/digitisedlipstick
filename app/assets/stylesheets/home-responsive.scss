@@ -18,9 +18,13 @@
 		left: 5% !important;
 	}
 
+	.container-fluid {
+		background-size: 100% 30%;
+	}
+
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (min-width: 480px) and (max-width: 568px) {
 
 	body#site {
 
@@ -35,13 +39,21 @@
 		width: 90% !important;
 		left: 5% !important;
 	}
+
+	.container-fluid {
+		background-size: 100% 35%;
+	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 568px) and (max-width: 768px) {
 
 	.brand-wrapper {
 
 		width: 90% !important;
 		left: 5% !important;
+	}
+
+	.container-fluid {
+		background-size: 100% 40%;
 	}
 }

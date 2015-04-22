@@ -1,12 +1,15 @@
 //
 // HOME PAGE
 // --------------------------------------------------
-
-.wrapper {
+.container-fluid {
 
 	padding: 0;
-	margin: 0;
-	display: block;
+	margin:0;
+	height: 100%;
+	background-image: url($screen-bg);
+	background-color: #fff;
+	background-repeat: repeat-x;
+	background-size: 100% 40%;
 }
 
 body#site {
@@ -31,105 +34,97 @@ body#site {
 		overflow:hidden;
 	}
 	
-	#fullPage-nav span, .fullPage-slidesNav span {
-
-		width: 12px;
-		height: 12px;
-	}
-
-	#fullPage-nav span, .fullPage-slidesNav span {
-
-		border-color: $primary-color;
-	}
-	#fullPage-nav li .active span, .fullPage-slidesNav .active span {
-
-		background: $primary-color;
-	}
-
-	/* Overwrite fullPage.js tooltip color
-	* --------------------------------------- */
-	.fullPage-tooltip {
-
-		background-color: rgba(0,0,0, 0.6);
-		color: #FFF !important;
-		//width:75px;
-		text-align:center;
-		padding:7px 25px;
-		@include border-radius(4px);
-	}
-	
 	.section-background-overlay {
 
-		@include overlay-background($body-text, 0.95);
+		@include overlay-background(#7DEF0F, 0.5);
 	}
 	
 	/* Section 0
 	* --------------------------------------- */
-	#section0{}
-}
+	#section0 {
 
-.brand-wrapper {
+		height: 100%;
 
-	width: 40%;
-	position: absolute;
-	top: 20%;
-	left: 30%;
-}
+		.brand-wrapper {
 
-.logo-wrapper {
+			width: 40%;
+			position: absolute;
+			top: 20%;
+			left: 30%;
+			z-index: 999;
+		}
 
-	width: 50%;
-	margin: 0 auto;
+		.logo-wrapper {
 
-	#logo {
+			width: 50%;
+			margin: 0 auto;
 
-		display: block;
-		position: relative;
-		width: 100%;
-		overflow: hidden;
+			#logo {
+
+				display: block;
+				position: relative;
+				width: 100%;
+				overflow: hidden;
+			}
+		}
+
+		#logo-mask-wrapper {
+
+			position: relative;
+			width: 50%;
+			margin: 0 auto;
+			height: auto;
+
+			#logo-mask {
+
+				position: relative;
+				display: block;
+			}
+		}
+
+		.logo-text-wrapper {
+
+			width: 80%;
+			margin: 0 auto;
+			position: relative;
+
+			#logo-title {
+
+		    display: block;
+				position: relative;
+				width: 100%;
+			}
+
+			#logo-title-slogan{
+				display: block;
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				left:0;
+			}
+		}
+
+		/* replaced with Vivus.js 
+		.title {
+
+		  stroke-dasharray: 500;
+		  stroke-dashoffset: 500;
+		  animation: draw 5s linear forwards;
+		  font-weight: bold;
+		  font-family: $title-font;
+		}
+		@keyframes draw { to { stroke-dashoffset: 0; } }
+		*/
+
+		.svg-content { display: block; }
+
+		.outline-svg {
+
+			fill-opacity: 0;
+			transition: fill-opacity 2s;
+		}
+
+		.outline-svg.finished { fill-opacity: 1; }
+
 	}
 }
-
-.logo-text-wrapper {
-
-	width: 80%;
-	margin: 0 auto;
-	position: relative;
-
-	#logo-title {
-
-    display: block;
-		position: relative;
-		width: 100%;
-	}
-
-	#logo-title-slogan{
-		display: block;
-		position: absolute;
-		width: 100%;
-		bottom: 0;
-		left:0;
-	}
-}
-
-/* replaced with Vivus.js 
-.title {
-
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
-  animation: draw 5s linear forwards;
-  font-weight: bold;
-  font-family: $title-font;
-}
-@keyframes draw { to { stroke-dashoffset: 0; } }
-*/
-
-.svg-content { display: block; }
-
-.outline-svg {
-
-	fill-opacity: 0;
-	transition: fill-opacity 2s;
-}
-
-.outline-svg.finished { fill-opacity: 1; }

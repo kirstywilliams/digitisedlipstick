@@ -90,12 +90,8 @@
 	<%= csrf_meta_tags %>
 </head>
 <body id="site">
-
-	<div class="wrapper" id="fullpage">
 			
-			<%= yield %>
-
-	</div><!-- ./wrapper -->
+	<%= yield %>
 	<%= yield(:foot_controller_js) %>
 </body>
 </html>

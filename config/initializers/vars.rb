@@ -12,3 +12,6 @@ FACEBOOK_NAME = 'digitisedlipstick'
 APP_NAME = 'Digitised Lipstick'
 APP_SLOGAN = 'Look. Feel. Work.'
 BRAND_COLOR = '#ED0F5A'
+
+SECTION_ONE_BG = 'n042.jpg'
+SCREEN_BG ='screen07.jpg'

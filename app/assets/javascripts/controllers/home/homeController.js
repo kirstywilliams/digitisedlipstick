@@ -14,8 +14,6 @@ var HomeController = {
 
 	// Add functions to be run on page load.
 	head: function(){
-		// Full page
-		FullPageCustom.init();
 		
 		// Branding animations
 		Branding.init();
@@ -23,6 +21,9 @@ var HomeController = {
 
 	// All functions to be run after page load.
 	foot: function(){
+		// Full page
+		//FullPageCustom.init();
+		
 		// Draws force-directed graph
 		//Graph.init($(window).width(), $(window).height());
 	}

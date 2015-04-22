@@ -1,15 +1,27 @@
 <% head_controller_js("home") %>
 <% foot_controller_js("home") %>
-<!-- ########### TOP SECTION ######### -->
-<!-- SVG NEEDS FALLBACK IMAGES -->
-<div class="section" id="section0">
-	<div id="viz"></div>
+
+<div class="container-fluid">
+	<!-- ########### TOP SECTION ######### -->
+	<!-- SVG NEEDS FALLBACK IMAGES -->
+	<div class="section" id="section0">
+		<div id="section0-bg"></div>
+
+		<!-- <div id="viz"></div> -->
+
 		<div class="brand-wrapper">
 			<div class="logo-wrapper">
 				<!-- COMPANY LOGO -->
 				<%= render partial: "home/svg_sections/logo_svg" %>
+
 				<div class="clearfix"></div>
 			</div><!-- ./logo-wrapper -->
+
+			<div id="logo-mask-wrapper" style="display:none;">
+				<%= render partial: "home/svg_sections/logo_mask_svg" %>
+
+				<div class="clearfix"></div>
+			</div><!-- ./logo-mask-wrapper -->
 
 			<div class="logo-text-wrapper">
 
@@ -18,7 +30,12 @@
 
 				<!-- SLOGAN TEXT: Look. Feel. Work. -->
 				<%= render partial: "home/svg_sections/company_slogan_svg" %>
+
 				<div class="clearfix"></div>
 			</div><!-- ./logo-text-wrapper -->
 		</div><!-- ./brand-wrapper -->
-</div><!-- ./section0 -->
+		<div class="clearfix"></div>
+	</div><!-- ./section0 -->
+
+	<div class="clearfix"></div>
+</div>
