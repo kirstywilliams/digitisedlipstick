@@ -6,7 +6,7 @@ SITE_DOMAIN = 'www.digitisedlipstick.com'
 SITE_GOOGLE_ANALYTICS = 'UA-60714663-1'
 
 TWITTER_NAME = 'digitisedlipstk'
-GOOGLE_PLUS_NAME = 'kirstywilliams2013'
+GOOGLE_PLUS_NAME = 'digitisedlipstick'
 FACEBOOK_NAME = 'digitisedlipstick'
 
 APP_NAME = 'Digitised Lipstick'

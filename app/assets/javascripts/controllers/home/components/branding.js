@@ -41,7 +41,10 @@ var Branding = {
 		new Vivus('lipstick', {type: 'async', duration: 50, animTimingFunction: Vivus.EASE_IN }, function(obj){
 			obj.el.classList.add('finished');
 		  Branding.settings.titleSketch.play();
-		  Branding.showLogoMask();
+		  
+		  if( !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 				Branding.showLogoMask();
+			}
 		});
 	},
 
