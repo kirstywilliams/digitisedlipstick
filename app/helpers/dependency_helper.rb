@@ -1,13 +1,13 @@
 module DependencyHelper
 
-	# PARAMS: 
+	# PARAMS:
 	# controller e.g. "home"
 	def head_controller_js(controller)
 		script = get_dependency_script(controller, "head")
 		content_for(:head_controller_js, javascript_tag(script))
 	end
 
-	# PARAMS: 
+	# PARAMS:
 	# controller e.g. "home"
 	def foot_controller_js(controller)
 		script = get_dependency_script(controller, "foot")

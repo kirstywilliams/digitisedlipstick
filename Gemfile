@@ -8,6 +8,7 @@ gem 'pg', '~> 0.18.1'
 
 # Server
 gem 'puma'
+gem 'rack-timeout'
 
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.0.3'
