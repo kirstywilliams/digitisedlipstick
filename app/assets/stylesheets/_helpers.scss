@@ -70,6 +70,8 @@
     transition: all .5s ease-in-out;
 }
 
+.bg-starry { @include stars(#000, #fff); }
+
 .relative-wrap { position: relative; }
 .display-block { display: block; }
 .display-block-inline { display: inline-block; }

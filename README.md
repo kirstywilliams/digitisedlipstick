@@ -1,14 +1,12 @@
 # Digitised Lipstick
 
-Source code for [digitisedlipstick.com](http://www.digitisedlipstick.com)
-
 ## Todo:
 
 Everything.
 
 ## Current State
 
-In development.
+In development. [TEST Server](https://digitisedlipstick.herokuapp.com)
 
 ## Stack
 
