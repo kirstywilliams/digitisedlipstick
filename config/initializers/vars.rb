@@ -4,6 +4,7 @@ SITE_DESCRIPTION = 'Digitised Lipstick is a full service Website Design and Deve
 SITE_DOMAIN = 'www.digitisedlipstick.com'
 
 SITE_GOOGLE_ANALYTICS = 'UA-60714663-1'
+SITE_GOSQUARED = 'GSN-789214-V'
 
 TWITTER_NAME = 'digitisedlipstk'
 GOOGLE_PLUS_NAME = 'digitisedlipstick'
