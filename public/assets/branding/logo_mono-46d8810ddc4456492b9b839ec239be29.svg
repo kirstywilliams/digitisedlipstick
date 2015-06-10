@@ -1,0 +1,24 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="lipstick" x="0px" y="0px"
+	viewBox="-5 -5 520 520" enable-background="new -5 -5 520 520" xml:space="preserve" preserveAspectRatio="xMinYMin meet" class="svg-content outline-svg">
+	<g id="Layer_1">
+		<circle fill="222222" stroke="#222222" stroke-width="10" stroke-miterlimit="10" cx="250" cy="250" r="250" opacity="1" />
+	</g>
+	<g id="Layer_2">
+		<polygon fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square" points="320,300 300,300 300,145 290,145 290,65 270,65 270,55 260,55 260,65 250,65 250,75 230,75 230,85 
+			220,85 220,105 210,105 210,145 200,145 200,290 190,290 190,300 180,300 180,445 320,445 	"/>
+	</g>
+	<g id="Layer_3">
+		<polygon fill="#777777" stroke="#777777" stroke-width="1.5" stroke-linecap="square" points="200,340 210,340 210,145 200,145 200,300 190,300 190,310 180,310 180,445 200,445 	"/>
+	</g>
+	<g id="Layer_4">
+		<polygon fill="#777777" stroke="#777777" stroke-width="1.5" stroke-linecap="square" points="280,155 270,155 270,145 240,145 240,290 280,290 	"/>
+	</g>
+	<g id="Layer_5">
+		<polygon fill="#777777" stroke="#777777" stroke-width="1.5" stroke-linecap="square" points="320,425 310,425 310,380 300,380 300,360 290,360 290,340 300,340 300,330 290,330 290,320 
+			280,320 280,310 260,310 260,300 250,300 250,310 240,310 240,445 320,445 	"/>
+	</g>
+	<g id="Layer_6">
+		<rect x="220" y="105" fill="#E7E7E7" stroke="#E7E7E7" stroke-width="1.5" stroke-linecap="square" width="10" height="185"/>
+		<polygon fill="#E7E7E7" points="270,95 260,95 260,85 250,85 250,105 260,105 260,145 270,145 	"/>
+	</g>
+</svg>

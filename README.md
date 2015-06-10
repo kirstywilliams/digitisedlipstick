@@ -1,12 +1,14 @@
 # Digitised Lipstick
 
+Source code for a new portfolio site I'm currently working on. Will eventually move everything over from my [personal domain](http://www.kirstywilliams.co.uk).
+
 ## Todo:
 
-Everything.
+Everything. Work in progress.
 
 ## Current State
 
-In development. [TEST Server](https://digitisedlipstick.herokuapp.com)
+In development. CI Hook with Heroku, so the [digitisedlipstick domain](http://www.digitisedlipstick.com) will always reflect the state of this master branch.
 
 ## Stack
 
@@ -16,7 +18,4 @@ In development. [TEST Server](https://digitisedlipstick.herokuapp.com)
 * PostgreSQL
 * Bootstrap 3
 * Sass
-
-## Authors
-
-[Kirsty Williams](https://github.com/kirstywilliams)
+* Heroku
